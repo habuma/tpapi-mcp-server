@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration
 class McpServerConfig {
 
     @Bean
-    fun toolCallbacks(myTools: MyTools): List<ToolCallback> {
+    fun toolCallbacks(myTools: ThemeParkApiTools): List<ToolCallback> {
         return ToolCallbacks.from(myTools).toList();
     }
 

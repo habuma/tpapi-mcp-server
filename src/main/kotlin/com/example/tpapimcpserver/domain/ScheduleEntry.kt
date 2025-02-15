@@ -1,4 +1,4 @@
-package com.example.tpapimcpserver
+package com.example.tpapimcpserver.domain
 
 data class ScheduleEntry(
     val date: String,

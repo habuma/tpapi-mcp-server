@@ -8,12 +8,10 @@ import org.springframework.boot.test.context.SpringBootTest
 class TPAPIMcpServerApplicationTests {
 
     @Autowired
-    lateinit var myTools: MyTools
+    lateinit var myTools: ThemeParkApiTools
 
     @Test
     fun contextLoads() {
-        val entityLive = myTools.getEntityLive("8c36ff0b-3a32-4d7b-9388-0516c19277db")
-        println(entityLive)
     }
 
 }

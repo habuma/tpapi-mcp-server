@@ -1,4 +1,4 @@
-package com.example.tpapimcpserver
+package com.example.tpapimcpserver.domain
 
 data class LiveData(
     val queue: Map<String, Object>?,

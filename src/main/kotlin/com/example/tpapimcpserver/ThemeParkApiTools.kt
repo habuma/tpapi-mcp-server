@@ -1,5 +1,6 @@
 package com.example.tpapimcpserver
 
+import com.example.tpapimcpserver.domain.*
 import org.springframework.ai.tool.annotation.Tool
 import org.springframework.ai.tool.annotation.ToolParam
 import org.springframework.stereotype.Component
@@ -10,7 +11,7 @@ import java.util.stream.Collectors
 import java.util.stream.Stream
 
 @Component
-class MyTools(restClientBuilder : RestClient.Builder) {
+class ThemeParkApiTools(restClientBuilder : RestClient.Builder) {
 
     private final var restClient: RestClient
 

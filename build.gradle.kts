@@ -17,12 +17,12 @@ java {
 repositories {
     mavenLocal()
     maven {
-        url = uri("https://repo.spring.io/snapshot")
+        url = uri("https://repo.spring.io/milestone")
     }
     mavenCentral()
 }
 
-extra["springAiVersion"] = "1.0.0-SNAPSHOT"
+extra["springAiVersion"] = "1.0.0-M6"
 
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
